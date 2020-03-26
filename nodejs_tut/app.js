@@ -15,6 +15,14 @@ const server = http.createServer((req,res)=>{
 });
 
 
+//npm list to list all the dependencies
+//npm list --depth=0
+//npm view mongoose dependencies
+//npm i mongoose@<version> --save
+// //npm i -g npm-check-updates ''
+// npm i jshint --save-dev
+// developemtn dependencies :
+// npm un <package name> 
 /***
 server.on('connection',(socket)=>{
   //console.log('new connection...');
